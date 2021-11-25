@@ -26,7 +26,7 @@ function Header(props) {
         <div className="relative  w-24 hidden lg:inline-grid cursor-pointer">
           <Image
             onClick={() => router.push("/")}
-            src="https://links.papareact.com/ocw\"
+            src="/instagram.logo.png"
             layout="fill"
             objectFit="contain"
           />
@@ -34,7 +34,7 @@ function Header(props) {
         <div className="relative  w-10  lg:hidden flex-shrink-0">
           <Image
             onClick={() => router.push("/")}
-            src="https://links.papareact.com/jjm"
+            src="/instagram-mobile-logo.png"
             layout="fill"
             objectFit="contain"
           />
